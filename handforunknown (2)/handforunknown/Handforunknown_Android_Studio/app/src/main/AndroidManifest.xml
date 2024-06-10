@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.handforunknown"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Updatechilddetails"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration" />
+        <activity
+            android:name=".ParentHome"
+            android:label="@string/title_activity_parent_home" />
+        <activity
+            android:name=".IPSetting"
+            android:exported="true"
+            android:label="@string/title_activity_ipsetting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Parentaddchild"
+            android:label="@string/title_activity_parentaddchild" />
+        <activity
+            android:name=".Complaints"
+            android:label="@string/title_activity_complaints" />
+        <activity
+            android:name=".Message"
+            android:label="@string/title_activity_message" />
+        <activity
+            android:name=".Enquiry"
+            android:label="@string/title_activity_enquiry" />
+        <activity
+            android:name=".ViewTask"
+            android:label="@string/title_activity_view_task" />
+        <activity
+            android:name=".ViewDoctors"
+            android:label="@string/title_activity_view_doctors" />
+        <activity
+            android:name=".ViewGames"
+            android:label="@string/title_activity_view_games" />
+        <activity
+            android:name=".Simplegame"
+            android:label="@string/title_activity_simplegame" />
+        <activity
+            android:name=".Selectachildfortask"
+            android:label="@string/title_activity_selectachildfortask" />
+        <activity
+            android:name=".Updatetaskperfomance"
+            android:label="@string/title_activity_updatetaskperfomance" />
+        <activity
+            android:name=".Selectchildforgames"
+            android:label="@string/title_activity_selectchildforgames" />
+        <activity
+            android:name=".Selectgame"
+            android:label="@string/title_activity_selectgame" />
+    </application>
+
+</manifest>

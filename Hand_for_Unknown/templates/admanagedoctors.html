@@ -1,0 +1,177 @@
+{% include 'adminheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Doctors Registration</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			{% if data['updateprt']%}
+			<tr>
+				<th><font color="red">First Name</font></th>
+				<td><input type="text" name="fname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['fname']}}" readonly=""></td>
+			</tr>
+			<tr>
+				<th><font color="red">Last Name</font></th>
+				<td><input type="text" name="lname" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['lname']}}" readonly=""></td>
+			</tr>
+			<tr>
+				<th><font color="red">Gender</font></th>
+				<td><input type="text" name="gender"   class="form-control" value="{{data['updateprt'][0]['gender']}}"  readonly="" style="width:90%;height: 40px">
+				</td>
+			</tr>
+			<tr>
+				<th><font color="red">Date of Birth</font></th>
+				<td><input type="date" name="dob" max="2005-12-12" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['dob']}}" readonly=""></td>
+			</tr>
+			<tr>	
+				<th><font color="red">Contact</font></th>
+				<td><input type="text" name="contact"  maxlength="10" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['phone']}}"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Email </font></th>
+				<td><input type="email" name="email" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['email']}}" ></td>
+			</tr>
+			<tr>
+				<th><font color="red">Qualification</font></th>
+				<td><input type="text" name="qual" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['qualification']}}"></td>
+			</tr>
+			<!-- <tr>
+				<th><font color="red">Username</font></th>
+				<td><input type="text" name="username" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['username']}}" readonly=""></td>
+			</tr>
+			<tr>
+				<th><font color="red">Password</font></th>
+			<td><input type="password" name="password" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['password']}}" readonly=""></td>
+			<tr> -->
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">First Name</font></th>
+				<td><input type="text" name="fname" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Last Name</font></th>
+				<td><input type="text" name="lname" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Gender</font></th>
+				<td><input type="radio" name="gender"  value="male" class="form-control">Male
+					<input type="radio" name="gender" value="female">Female
+				</td>
+			</tr>
+			<tr>
+				<th><font color="red">Date of Birth</font></th>
+				<td><input type="date" name="dob" max="2005-12-12" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Contact</font></th>
+				<td><input type="text" name="contact" maxlength="10" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Email </font></th>
+				<td><input type="email" name="email" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Qualification</font></th>
+				<td><input type="text" name="qual" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Username</font></th>
+				<td><input type="text" name="username" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Password</font></th>
+			<td><input type="password" name="password" class="form-control" required="" style="width:90%;height: 40px"></td>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+				<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+					<h1 align="center"><font color="red"><u>Doctors Registration</u></font></h1>
+					<tr>
+						<th>Name</th>
+						<th>Gender</th>
+						<th>Date of Birth</th>
+						<th>Contact</th>
+						<th>Email</th>
+						<th>Qualification</th>
+
+					</tr>
+					<tbody>
+						{% for row in data['doctors']%}
+						<td>{{row['NAME']}}</td>
+						<td>{{row['gender']}}</td>
+						<td>{{row['dob']}}</td>
+						<td>{{row['phone']}}</td>
+						<td>{{row['email']}}</td>
+						<td>{{row['qualification']}}</td>
+						<td><a href="?action=update&id={{row['doctor_id']}}">Update</a></td>
+						<td><a href="?action=delete&id={{row['doctor_id']}}&id1={{row['log_id']}}">Delete</a></td>
+					</tbody>
+					{% endfor %}
+				</table>
+			</form>
+{% include 'footer.html'%}
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(function() {
+        $("input[name='fname']").on('input', function(e) {
+            $(this).val($(this).val().replace(/[^A-Za-z ]/g, ''));
+
+        });
+        $("input[name='lname']").on('input', function(e) {
+            $(this).val($(this).val().replace(/[^A-Za-z ]/g, ''));
+
+        });
+        // $("input[name='dob']").on('input', function(e) {
+        //     $(this).val($(this).val().replace(/[^0-9/]/g, ''));
+
+        // });
+        
+        $("input[name='contact']").on('input', function(e) {
+            $(this).val($(this).val().replace(/[^0-9]/g, ''));
+            
+        });
+        $("input[name='pin']").on('input', function(e) {
+            $(this).val($(this).val().replace(/[^0-9]/g, ''));
+            
+        });
+        $("input[name='email']").on('input', function(e) {
+              var re = /([A-Z0-9a-z_-][^@])+?@[^$#<>?]+?\.[\w]{1,}/.test(this.value);
+                if(!re) {
+                    $('#eerror').show();
+                    $('#btn').prop('disabled', true);
+                    console.log("err");
+                } else {
+                    $('#btn').prop('disabled', false);
+                    $('#eerror').hide();
+                    console.log("err");
+                }
+
+        });
+        $("input[name='address']").on('input', function(e) {
+            $(this).val($(this).val().replace(/[^A-Za-z0-9()/. ]/g, ''));
+
+        });
+        $("input[name='place']").on('input', function(e) {
+            $(this).val($(this).val().replace(/[^A-Za-z ]/g, ''));
+
+        });
+            
+        $("input[name='password']").on('input', function(e) {
+            $(this).val($(this).val().replace(/[^0-9A-Za-z@/. ]/g, ''));
+            
+        });
+    });
+
+
+
+
+</script>

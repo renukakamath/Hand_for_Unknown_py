@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/instructionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:id="@+id/colorsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/instructionTextView"
+        android:layout_marginTop="32dp"
+        android:columnCount="4"
+        >
+
+        <Button
+            android:id="@+id/color1Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/color2Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/color3Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/color4Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color6Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color8Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color9Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color10Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color11Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color12Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color13Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color14Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color15Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color16Button"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color17Button"
+            android:layout_width="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/color18Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+
+             />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorsLayout"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/Gamecon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/colorsLayout"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp" />
+
+</RelativeLayout>

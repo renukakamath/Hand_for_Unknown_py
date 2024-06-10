@@ -1,0 +1,47 @@
+{% include 'docheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>View Game Scores</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th>Title</th>
+				<th>Description</th>
+                <th>Child Name</th>
+                <th>Assign Date</th>
+                <th>Score</th>
+			</tr>
+			<tbody>
+				{% for row in data['game']%}
+				<td>{{row['title']}}</td>
+				<td>{{row['description']}}</td>
+				<td>{{row['name']}}</td>
+				<td>{{row['ass_date']}}</td>
+				<td>{{row['mark']}}</td>
+			</tbody>
+				{% endfor %}
+			</table>
+{% if data['res1'] %}
+            <h1 align="center"><font color="red"><u>View puzzle Scores</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th>s1</th>
+				<th>Image</th>
+                <th>Child Name</th>
+                <th >Finished Time</th>
+                <th>Score</th>
+			</tr>
+			<tbody>
+				{% for row in data['res1']%}
+                <td>{{loop.index}}</td>
+				<td><img src="{{row['image']}}" width="100px" height="100px" alt=""></td>
+				<td>{{row['name']}}</td>
+				<td>{{row['time']}} sec</td>
+				<td>{{row['mark']}} points</td>
+			</tbody>
+				{% endfor %}
+			</table>
+            {% endif %}
+		</form>
+{% include 'footer.html'%}		

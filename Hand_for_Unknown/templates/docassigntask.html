@@ -1,0 +1,92 @@
+{% include 'docheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Assign Task</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			{% if data['updateprt']%}
+			<tr>
+				<th><font color="red">Child Name</font></th>
+				<td>
+					<input type="text" name="cname" class="form-control" required="" style="width:90%;height: 40px" readonly="" value="{{data['updateprt'][0]['name']}}">
+				</td>
+			</tr>
+			<tr>
+				<th><font color="red">Assigned Date</font></th>
+				<td><input type="date" name="adate" class="form-control"  style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Doctors Notes</font></th>
+				<td><textarea name="dnote" class="form-control" required="" style="width:90%;height: 140px">
+					{{data['updateprt'][0]['doctors_note']}}
+				</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Child Name</font></th>
+				<td><select name="cname" class="form-control" required="" style="width:90%;height: 40px">
+					<option>Select</option>
+					{% for row in data['childs']%}
+					<option value="{{row['child_id']}}">{{row['name']}}</option>
+					{% endfor %}
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<th><font color="red">Task</font></th>
+				<td><select name="tasks" class="form-control" required="" style="width:90%;height: 40px">
+					<option>Select</option>
+					{% for row in data['tasks']%}
+					<option value="{{row['task_id']}}">{{row['title']}}</option>
+					{% endfor %}
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<th><font color="red">Assigned Date</font></th>
+				<td><input type="date" name="adate" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Doctors Notes</font></th>
+				<td><textarea name="dnote" class="form-control" required="" style="width:90%;height: 140px">
+				</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+					<h1 align="center"><font color="red"><u>Assign Tasks</u></font></h1>
+					<tr>
+						<th>Task</th>
+						<th>Doctor Name</th>
+						<th>Child Name</th>
+						<th>Assigned Date</th>
+						<th>Doctors Note</th>
+
+					</tr>
+					<tbody>
+						{% for row in data['ch']%}
+						<td>{{row['title']}}</td>
+						<td>{{row['NAME']}}</td>
+						<td>{{row['name']}}</td>
+						<td>{{row['assign_date']}}</td>
+						<td>{{row['doctors_note']}}</td>
+						<!-- <td><a href="?action=update&id={{row['assign_id']}}">Update</a></td>
+						<td><a href="?action=delete&id={{row['assign_id']}}">Delete</a> </td>-->
+						<td><a href="/doctor/docanalyseperformance?id={{row['assign_id']}}">Analyse Task performance</a></td>
+					</tbody>
+					{% endfor %}
+				</table>
+	</form>
+{% include 'footer.html'%}

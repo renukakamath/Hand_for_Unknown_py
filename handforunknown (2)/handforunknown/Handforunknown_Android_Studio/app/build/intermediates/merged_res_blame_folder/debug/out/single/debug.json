@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_parentaddchild.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\parentaddchild.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_selectachildfortask.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_selectachildfortask.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_updatetaskperfomance.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\updatetaskperfomance.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_enquiry.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\enquiry.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_selectchildforgames.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_selectchildforgames.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_enquiry.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_enquiry.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_selectgame.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\selectgame.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_simplegame.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_simplegame.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_complaints.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\complaints.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_selectachildfortask.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\selectachildfortask.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_ipsetting.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_ipsetting.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_message.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\message.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_view_games.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\view_games.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_update_child.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_update_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_updatetaskperfomance.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_updatetaskperfomance.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_parent_home.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\parent_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_view_games.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_view_games.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_parent_home.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_parent_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_view_task.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\view_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_selectgame.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_selectgame.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_simplegame.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\simplegame.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_registration.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_view_doctors.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\view_doctors.xml"
+    },
+    {
+        "merged": "com.example.handforunknown.app-merged_res-9:/layout_activity_updatechilddetails.xml.flat",
+        "source": "com.example.handforunknown.app-main-11:/layout/activity_updatechilddetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_ipsetting.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\ipsetting.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_selectchildforgames.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\selectchildforgames.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_parentaddchild.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_parentaddchild.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_view_task.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_view_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_view_doctors.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_view_doctors.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\menu_login.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-merged_res-9:\\layout_activity_message.xml.flat",
+        "source": "C:\\Users\\ohmyg\\.gradle\\daemon\\7.3.3\\com.example.handforunknown.app-main-11:\\layout\\activity_message.xml"
+    }
+]

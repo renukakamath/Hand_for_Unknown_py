@@ -1,0 +1,22 @@
+{% include 'docheader.html' %}
+
+<form id="form1" name="form1" method="post" action="">
+    <table class="table table-active">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Image</th>
+        <th scope="col">&nbsp;</th>
+      </tr>
+        {% for i in data %}
+      <tr>
+  
+        <td>&nbsp;{{ loop.index }}</td>
+        <td><img src="{{ i.image }}" height="200" width="200"/></td>
+        <td>
+  {#      <td><p><a href="#">update</a></p>#}
+        <p><a href="/doctor/delete_puzzle/{{ i.puzzle_id }}" class="btn btn-dark">DELETE</a></p></td>
+      </tr>
+        {% endfor %}
+    </table>
+
+{% include 'footer.html' %}

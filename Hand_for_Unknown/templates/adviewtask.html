@@ -1,0 +1,19 @@
+{% include 'adminheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>View Task</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th>Title</th>
+				<th>Description</th>
+			</tr>
+			<tbody>
+				{% for row in data['task']%}
+				<td>{{row['title']}}</td>
+				<td>{{row['description']}}</td>
+			</tbody>
+				{% endfor %}
+			</table>
+		</form>
+{% include 'footer.html'%}		

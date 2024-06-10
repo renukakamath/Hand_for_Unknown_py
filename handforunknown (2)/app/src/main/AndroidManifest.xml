@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hfu"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <service android:name=".SocialDistanceAlert"/>
+
+        <activity
+            android:name=".Moregames"
+            android:exported="false" />
+        <activity
+            android:name=".Tictactoe"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Guesstheword"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true"></activity>
+        <activity
+            android:name=".puzzle_mark"
+            android:exported="false" />
+        <activity
+            android:name=".Checksymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".Viewresults"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Enquiry"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Message"
+            android:exported="true" />
+        <activity
+            android:name=".Parentaddchild"
+            android:exported="true" />
+        <activity
+            android:name=".ParentHome"
+            android:exported="true" />
+        <activity
+            android:name=".Registration"
+            android:exported="true" />
+        <activity
+            android:name=".Selectachildfortask"
+            android:exported="true" />
+        <activity
+            android:name=".Selectchildforgames"
+            android:exported="true" />
+        <activity
+            android:name=".Selectgame"
+            android:exported="true" />
+        <activity
+            android:name=".Simplegame"
+            android:exported="true" />
+        <activity
+            android:name=".Updatechilddetails"
+            android:exported="true" />
+        <activity
+            android:name=".Updatetaskperfomance"
+            android:exported="true" />
+        <activity
+            android:name=".ViewDoctors"
+            android:exported="true" />
+        <activity
+            android:name=".ViewGames"
+            android:exported="true" />
+        <activity
+            android:name=".RESULT"
+            android:exported="false" />
+        <activity
+            android:name=".view_custom_puzzle"
+            android:exported="false" />
+        <activity
+            android:name=".view_puzzle"
+            android:exported="false" />
+        <activity
+            android:name=".Puzzle_form"
+            android:exported="false" />
+        <activity
+            android:name=".ChatHere"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTask"
+            android:exported="true" />
+        <activity
+            android:name=".RecentChat"
+            android:exported="true" />
+        <activity
+            android:name=".Viewotherparents"
+            android:exported="true" />
+
+        <activity android:name=".StartingActivity">
+
+        </activity>
+        <activity android:name=".GameActivity" />
+
+        <activity
+            android:name=".IPSetting"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

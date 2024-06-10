@@ -1,0 +1,23 @@
+{% include 'docheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Analyse Performance</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Performance Date</font></th>
+				<th><font color="red">Doctor Name</font></th>
+				<th><font color="red">Child Name</font></th>
+				<th><font color="red">Performace Description</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['tasks']%}
+				<td>{{row['per_date']}}</td>
+				<td>{{row['NAME']}}</td>
+				<td>{{row['name']}}</td>
+				<td>{{row['per_des']}}</td>
+			</tbody>
+				{% endfor %}
+			</table>
+		</form>
+{% include 'footer.html'%}		

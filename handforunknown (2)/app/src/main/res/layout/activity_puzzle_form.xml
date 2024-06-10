@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".userhome">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginBottom="16dp"
+            android:text="SUBMIT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.978" />
+
+        <GridView
+            android:id="@+id/gd1"
+            android:layout_width="401dp"
+            android:layout_height="478dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="300dp"
+            android:horizontalSpacing="0dip"
+            android:numColumns="4"
+            android:verticalSpacing="0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="44dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="548dp"
+            android:foregroundGravity="right"
+            android:gravity="right"
+            android:text="00 : 00"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="141dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="IMAGE PUZZLE"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toTopOf="@+id/gd1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.226" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+

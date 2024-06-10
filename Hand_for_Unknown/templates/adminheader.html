@@ -1,0 +1,121 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html><!--<![endif]-->
+<head>
+<title>Calisto</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/foundation.min.css">
+<link rel="stylesheet" href="/static/css/superfish.css">
+<link rel="stylesheet" href="/static/css/stylesheet.css">
+<link rel="stylesheet" href="/static/js/slider/flexslider.css">
+<link rel="stylesheet" href="/static/js/slider/flexcar.css">
+<link href='http://fonts.googleapis.com/css?family=Quando' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,300' rel='stylesheet' type='text/css'>
+<script src="/static/js/vendor/custom.modernizr.js"></script>
+<script>
+Modernizr.load({
+    // test if browser understands media queries
+    test: Modernizr.mq('only all'),
+    // if not load ie8-grid
+    nope: '/static/css/ie8-grid-foundation-4.css'
+});
+</script>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="css/ie-fixes.css">
+<![endif]-->
+</head>
+<body>
+<div class="header">
+  <div class="row">
+    <div class="columns large-12">
+      <div class="row header-inner">
+        <div class="columns large-4 small-12"> <a href="/"><span style="color:rgb(95, 89, 89);font-size: 3rem;padding-top: 120px;"> Mind Matters </span></a> </div>
+        <div class="columns large-8">
+          <nav>
+            <section>
+              <ul class="sf-menu large-12">
+                <li class="active"><a href="/admin/adminhome">Home</a></li>
+<!-- <a href="/admin/adminhome">Home</a>
+<a href="/admin/admanagedoctors">Doctors</a>
+<a href="/admin/adviewtask">Task</a>
+<a href="/admin/adviewparents">Parents</a>
+<a href="/admin/adviewenq">Enquiry</a>
+<a href="/">Logout</a> -->
+
+                <li class="has-dropdown"><a href="#">Manage</a>
+                  <ul class="dropdown">
+                    <li class="has-dropdown"><a href="#">Manage</a>
+                      <ul class="dropdown">
+                        <li><a href="/admin/admanagedoctors">Doctors</a></li>
+                        <li><a href="/admin/adviewtask">Task</a></li>
+                       	<li><a href="/admin/adviewparents">Parents</a></li>
+                       	<li><a href="/admin/adviewenq">Enquiry</a></li>
+                      </ul>
+                  </ul>
+                </li>
+                 
+                  <li><a href="/">Sign Out</a></li>
+
+                </li>
+              </ul>
+            </section>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="columns large-12 small-top-menu">
+      <div class="row">
+        <div class="columns large-12 plr0 top-nav">
+          <form name="dropdown" class="dropdown" action="#">
+            <nav>
+              <section>
+                <select name="selected" id="target" accesskey="E" onChange="goToNewPage(document.dropdown.selected)">
+                  <option value="index.html">home</option>
+                  <option value="about.html">about us</option>
+                  <option value="blog.html">blog</option>
+                  <option value="gallery.html">gallery</option>
+                  <option value="services.html">services</option>
+                  <option value="contact.html">contact us</option>
+                </select>
+              </section>
+            </nav>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="row">
+      <div class="columns large-12">
+       <!--  <div class="row flexslider-row">
+          <div class="columns large-12">
+            <div class="flexslider">
+              <ul class="slides">
+                <li> <img src="/static/images/slide1.jpg" alt=""> </li>
+                <li> <img src="/static/images/slide2.jpg" alt=""> </li>
+                <li> <img src="/static/images/slide1.jpg" alt=""> </li>
+                <li> <img src="/static/images/slide2.jpg" alt=""> </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+
+    {% for message in messages %}
+    <script>alert("{{ message }}")</script>
+    {% endfor %}
+
+    {% endif %}
+    {% endwith %}

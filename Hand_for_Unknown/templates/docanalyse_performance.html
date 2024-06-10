@@ -1,0 +1,23 @@
+{% include 'docheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Analyse task performance</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Performance Description</font></th>
+				<td>
+				{% if data['perfomance'] %}
+				<textarea name="pdes" class="form-control" required="" style="width:90%;height: 140px">{{ data['perfomance'][0]['per_des'] }}
+				</textarea>
+				{% else %}
+				No Perfomance Added
+				{% endif %}
+				</td>
+			</tr>
+			<!-- <tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr> -->
+		</table>
+	</form>
+{% include 'footer.html'%}

@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.handforunknown"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="19"
+8-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:8:9-34
+9        android:targetSdkVersion="30" />
+9-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:11:5-67
+11-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:12:5-80
+12-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:12:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:13:5-81
+13-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:13:22-78
+14
+15    <application
+15-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:15:5-80:19
+16        android:allowBackup="true"
+16-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:16:9-35
+17        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+17-->[com.android.support:support-compat:28.0.0] C:\Users\ohmyg\.gradle\caches\transforms-3\85e8df90276e95c75de3fa04945b018a\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:17:9-45
+20        android:label="@string/app_name"
+20-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:18:9-41
+21        android:requestLegacyExternalStorage="true"
+21-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:19:9-52
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme"
+23-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:20:9-40
+24        android:usesCleartextTraffic="true" >
+24-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:21:9-44
+25        <activity
+25-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:22:9-24:40
+26            android:name="com.example.handforunknown.Updatechilddetails"
+26-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:23:13-47
+27            android:exported="false" />
+27-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:24:13-37
+28        <activity
+28-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:25:9-27:48
+29            android:name="com.example.handforunknown.Login"
+29-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:26:13-34
+30            android:label="@string/app_name" />
+30-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:27:13-45
+31        <activity
+31-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:28:9-30:67
+32            android:name="com.example.handforunknown.Registration"
+32-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:29:13-41
+33            android:label="@string/title_activity_registration" />
+33-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:30:13-64
+34        <activity
+34-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:31:9-33:66
+35            android:name="com.example.handforunknown.ParentHome"
+35-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:32:13-39
+36            android:label="@string/title_activity_parent_home" />
+36-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:33:13-63
+37        <activity
+37-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:34:9-43:20
+38            android:name="com.example.handforunknown.IPSetting"
+38-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:35:13-38
+39            android:exported="true"
+39-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:36:13-36
+40            android:label="@string/title_activity_ipsetting" >
+40-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:37:13-61
+41            <intent-filter>
+41-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:38:13-42:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:39:17-69
+42-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:39:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:41:17-77
+44-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:41:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:44:9-46:69
+48            android:name="com.example.handforunknown.Parentaddchild"
+48-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:45:13-43
+49            android:label="@string/title_activity_parentaddchild" />
+49-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:46:13-66
+50        <activity
+50-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:47:9-49:65
+51            android:name="com.example.handforunknown.Complaints"
+51-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:48:13-39
+52            android:label="@string/title_activity_complaints" />
+52-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:49:13-62
+53        <activity
+53-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:50:9-52:62
+54            android:name="com.example.handforunknown.Message"
+54-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:51:13-36
+55            android:label="@string/title_activity_message" />
+55-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:52:13-59
+56        <activity
+56-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:53:9-55:62
+57            android:name="com.example.handforunknown.Enquiry"
+57-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:54:13-36
+58            android:label="@string/title_activity_enquiry" />
+58-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:55:13-59
+59        <activity
+59-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:56:9-58:64
+60            android:name="com.example.handforunknown.ViewTask"
+60-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:57:13-37
+61            android:label="@string/title_activity_view_task" />
+61-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:58:13-61
+62        <activity
+62-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:59:9-61:67
+63            android:name="com.example.handforunknown.ViewDoctors"
+63-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:60:13-40
+64            android:label="@string/title_activity_view_doctors" />
+64-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:61:13-64
+65        <activity
+65-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:62:9-64:65
+66            android:name="com.example.handforunknown.ViewGames"
+66-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:63:13-38
+67            android:label="@string/title_activity_view_games" />
+67-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:64:13-62
+68        <activity
+68-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:65:9-67:65
+69            android:name="com.example.handforunknown.Simplegame"
+69-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:66:13-39
+70            android:label="@string/title_activity_simplegame" />
+70-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:67:13-62
+71        <activity
+71-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:68:9-70:74
+72            android:name="com.example.handforunknown.Selectachildfortask"
+72-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:69:13-48
+73            android:label="@string/title_activity_selectachildfortask" />
+73-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:70:13-71
+74        <activity
+74-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:71:9-73:75
+75            android:name="com.example.handforunknown.Updatetaskperfomance"
+75-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:72:13-49
+76            android:label="@string/title_activity_updatetaskperfomance" />
+76-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:73:13-72
+77        <activity
+77-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:74:9-76:74
+78            android:name="com.example.handforunknown.Selectchildforgames"
+78-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:75:13-48
+79            android:label="@string/title_activity_selectchildforgames" />
+79-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:76:13-71
+80        <activity
+80-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:77:9-79:65
+81            android:name="com.example.handforunknown.Selectgame"
+81-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:78:13-39
+82            android:label="@string/title_activity_selectgame" />
+82-->D:\Ananthu anil\py+android\2023\viswajyothy\hfu\handforunknown (2)\handforunknown\Handforunknown_Android_Studio\app\src\main\AndroidManifest.xml:79:13-62
+83    </application>
+84
+85</manifest>

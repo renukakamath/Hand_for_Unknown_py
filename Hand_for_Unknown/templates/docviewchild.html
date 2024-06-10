@@ -1,0 +1,23 @@
+{% include 'docheader.html'%}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Child Details</u></font></h1>
+	<form method="post">
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Parent Name</font></th>
+				<th><font color="red">Child Name</font></th>
+				<th><font color="red">Gender</font></th>
+				<th><font color="red">Date of Birth</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['childs']%}
+				<td>{{row['NAME']}}</td>
+				<td>{{row['name']}}</td>
+				<td>{{row['gender']}}</td>
+				<td>{{row['dob']}}</td>
+			</tbody>
+				{% endfor %}
+			</table>
+		</form>
+{% include 'footer.html'%}		

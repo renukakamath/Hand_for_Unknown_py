@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">handforunknown</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_parent_home">ParentHome</string>
+    <string name="title_activity_ipsetting">IPSetting</string>
+    <string name="title_activity_parentaddchild">Parentaddchild</string>
+    <string name="title_activity_complaints">Complaints</string>
+    <string name="title_activity_message">Message</string>
+    <string name="title_activity_enquiry">Enquiry</string>
+    <string name="title_activity_view_task">ViewTask</string>
+    <string name="title_activity_view_doctors">ViewDoctors</string>
+    <string name="title_activity_view_games">ViewGames</string>
+    <string name="title_activity_simplegame">Simplegame</string>
+    <string name="title_activity_selectachildfortask">Selectachildfortask</string>
+    <string name="title_activity_updatetaskperfomance">Updatetaskperfomance</string>
+    <string name="title_activity_selectchildforgames">Selectchildforgames</string>
+    <string name="title_activity_selectgame">Selectgame</string>
+
+</resources>

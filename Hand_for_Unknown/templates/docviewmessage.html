@@ -1,0 +1,35 @@
+{% include 'docheader.html' %}
+<br><br><br><br><br><br><br>
+	<h1 align="center"><font color="red"><u>Message/Send Reply</u></font></h1>
+	<form method="post">
+		<table  align="center" style="width:700px;background-color:#f1f1c1" class="table">
+			<tr>
+				<th><font color="red">Date</font></th>
+				<th><font color="red">Parent Name</font></th>
+				<th><font color="red">Message</font></th>
+				<th><font color="red">Reply</font></th>
+				
+			</tr>
+			<tbody>
+			{% for row in data['msg'] %}
+				<tr>
+					<td>{{row['date']}}</td>
+					<td>{{row['NAME']}}</td>
+					<td>{{row['mess_des']}}</td>
+
+					{% if row['mess_reply'] == "pending" %}
+				
+					<td><textarea name="reply{{loop.index}}"></textarea><input type="submit" name="submit{{loop.index}}" value="submit"></td>
+
+					{% else %}
+					<td>{{row['mess_reply']}}</td>
+					
+					{% endif %}
+			
+				
+				{% endfor %}
+			</tbody>
+		</table>
+	</form>
+	
+{% include 'footer.html' %}

@@ -1,0 +1,57 @@
+{% include 'docheader.html' %}
+<body>
+	<br><br>
+	<h1 align="center"><font color="red"><u>Manage Task</u></font></h1>
+	<form method="post">
+		{% if data['updateprt']%}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Title</font></th>
+				<td><input type="text" name="title" class="form-control" required="" style="width:90%;height: 40px" value="{{data['updateprt'][0]['title']}}"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Description</font></th>
+			<td><textarea name="des" class="form-control" required="" style="width:90%;height: 140px">
+				{{data['updateprt'][0]['description']}}
+			</textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="update" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% else %}
+		<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+			<tr>
+				<th><font color="red">Title</font></th>
+				<td><input type="text" name="title" class="form-control" required="" style="width:90%;height: 40px"></td>
+			</tr>
+			<tr>
+				<th><font color="red">Description</font></th>
+			<td><textarea name="des" class="form-control" required="" style="width:90%;height: 140px">
+			</textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><font color="red"><input type="submit" name="submit" value="Submit" class="form-control" style="width:100%;height: 40px"></font></td>
+			</tr>
+		</table>
+		{% endif %}
+		<br><br><br>
+			<table  align="center" class="table" style="width:700px;background-color:#f1f1c1">
+					<h1 align="center"><font color="red"><u>Task Details</u></font></h1>
+
+			<tr>
+				<th><font color="red">Title</font></th>
+				<th><font color="red">Description</font></th>
+			</tr>
+			<tbody>
+				{% for row in data['task']%}
+				<td>{{row['title']}}</td>
+				<td>{{row['description']}}</td>
+				<td><a href="?action=update&id={{row['task_id']}}">Update</a></td>
+				<td><a href="?action=delete&id={{row['task_id']}}">Delete</a></td>
+			</tbody>
+				{% endfor %}
+			</table>
+	</form>
+
+{% include 'footer.html'%}
